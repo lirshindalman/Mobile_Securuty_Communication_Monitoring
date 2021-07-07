@@ -19,6 +19,7 @@
         <activity android:name=".Activity.Main_Activity" />
         <activity android:name=".Activity.SignUp_Activity" />
         <activity android:name=".Activity.Login_Activity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
