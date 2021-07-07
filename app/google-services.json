@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "218938435295",
+    "firebase_url": "https://mobile-security--final-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mobile-security--final",
+    "storage_bucket": "mobile-security--final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218938435295:android:d9a6edd99ca3247e92ab6a",
+        "android_client_info": {
+          "package_name": "com.example.readapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218938435295-468b92k5nmr094sqpdf12lf3pt2j2gse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcx59L4mJPpN7UL1QZJatRV58-_pNoliA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218938435295-468b92k5nmr094sqpdf12lf3pt2j2gse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

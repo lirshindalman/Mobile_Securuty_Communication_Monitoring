@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Nav_Menu"
+        android:title="Monitor"
+        android:icon="@drawable/monitor" />
+
+    <item
+        android:id="@+id/Nav_SMSHistory"
+        android:title="All SMS"
+        android:icon="@drawable/ic_sms" />
+
+    <item
+        android:id="@+id/Nav_CallHistory"
+        android:title="All Calls"
+        android:icon="@drawable/ic_call"
+        />
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Main_Activity">
+
+    <RelativeLayout
+        android:id="@+id/Main_RLY_Up_Tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/Main_LAY_Log_Out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffcb7a"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/Main_IMG_Log_Out"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_logout"
+                android:layout_alignParentRight="true"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/Main_FRG_Content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Main_RLY_Up_Tool"
+        android:layout_above="@id/Main_BTN_Navigation"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/Main_BTN_Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation_menu">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>

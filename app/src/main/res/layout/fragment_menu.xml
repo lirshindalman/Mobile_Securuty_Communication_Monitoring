@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Menu_BTN_Start"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            app:cornerRadius="200dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:backgroundTint="#45DFD8D8"
+            android:text="START"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Menu_BTN_Finish"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            app:cornerRadius="200dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:backgroundTint="#45DFD8D8"
+            android:text="FINISH"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
