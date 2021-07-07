@@ -18,9 +18,7 @@
         android:theme="@style/Theme.ReadApplication">
         <activity android:name=".Activity.Main_Activity" />
         <activity android:name=".Activity.SignUp_Activity" />
-        <activity android:name=".Activity.Login_Activity"/>
-        <activity android:name=".Activity.Splash_Activity">
-            android:windowSoftInputMode="stateHidden">
+        <activity android:name=".Activity.Login_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
