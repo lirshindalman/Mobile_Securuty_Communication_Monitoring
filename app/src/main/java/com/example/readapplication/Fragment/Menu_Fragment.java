@@ -88,8 +88,13 @@ public class Menu_Fragment extends Fragment {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                 status = snapshot.getValue(Status.class);
+                try {
+                    buttonStatus(status.isOn());
+                }
+                catch(Exception e) {
+                    buttonStatus(false);
+                }
 
-                buttonStatus(status.isOn());
             }
 
             @Override

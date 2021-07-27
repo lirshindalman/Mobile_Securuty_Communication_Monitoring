@@ -1,7 +1,7 @@
 package com.example.readapplication.Object;
 
 public class Status {
-    boolean isOn;
+    boolean isOn = false;
 
     public Status() {
     }
