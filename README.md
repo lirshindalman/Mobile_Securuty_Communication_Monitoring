@@ -1,8 +1,6 @@
 # Communication Monitoring - App
 
-This app for monitoring:
-* Incoming calls
-* Incoming messages
+This app for monitoring Incoming calls and Incoming messages
 
 The application runs in the background and does not require user action.
 *(Except login to the app and activate the service)*
